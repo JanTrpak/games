@@ -6,7 +6,7 @@ export class DbService {
     knex = require('knex')({
         client: 'sqlite3',
         connection: {
-            filename: "../../epic.db"
+            filename: "./epic.db"
         },
         useNullAsDefault: true
     });
